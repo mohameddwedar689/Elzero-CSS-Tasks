@@ -86,3 +86,20 @@ Many CSS properties take "length" values, such as `width`, `margin`, `padding`, 
 | vmin |       Relative to 1% of viewport's* smaller dimension        |
 | vmax |        Relative to 1% of viewport's* larger dimension        |
 |  %   |                Relative to the parent element                |
+
+## Week 3️⃣
+
+### CSS Position
+
+The `position` property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+- `static`
+- `relative`
+- `fixed`
+- `absolute`
+- `sticky`
+
+Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the `position` property is set first. They also work differently depending on the position value.
+
