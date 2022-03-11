@@ -103,3 +103,22 @@ There are five different position values:
 
 Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the `position` property is set first. They also work differently depending on the position value.
 
+## Week 4️⃣
+
+### CSS Box Model
+
+All HTML elements can be considered as boxes.
+
+In CSS, the term "box model" is used when talking about design and layout.
+
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+
+![box_model](https://user-images.githubusercontent.com/77099631/157864551-0f4c4c78-5c33-4de4-8fd4-d3d1082d7176.png)
+
+Explanation of the different parts:
+
+- **Content** - The content of the box, where text and images appear
+- **Padding** - Clears an area around the content. The padding is transparent
+- **Border** - A border that goes around the padding and content
+- **Margin** - Clears an area outside the border. The margin is transparent
+
