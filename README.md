@@ -122,3 +122,22 @@ Explanation of the different parts:
 - **Border** - A border that goes around the padding and content
 - **Margin** - Clears an area outside the border. The margin is transparent
 
+## Week 5️⃣
+
+### CSS Flex
+
+**Flexbox** is a one-dimensional layout method for arranging items in rows or columns. Items *flex* (expand) to fill additional space or shrink to fit into smaller spaces. This article explains all the fundamentals.
+
+To start with, we need to select which elements are to be laid out as flexible boxes. To do this, we set a special value of `display` 
+
+on the parent element of the elements you want to affect. In this case we want to lay out the element 
+
+```CSS
+.section {
+    display: flex;
+}
+```
+
+### The flex model
+
+<img src="https://user-images.githubusercontent.com/77099631/159008692-11b1f043-ac5e-4f96-8db9-c1cc4b830e7a.png" alt="flex_terms" style="zoom:150%;" />
