@@ -141,3 +141,26 @@ on the parent element of the elements you want to affect. In this case we want t
 ### The flex model
 
 <img src="https://user-images.githubusercontent.com/77099631/159008692-11b1f043-ac5e-4f96-8db9-c1cc4b830e7a.png" alt="flex_terms" style="zoom:150%;" />
+
+## Week 6️⃣
+
+### CSS Filters
+
+The **`filter`** CSS property applies graphical effects like blur or color shift to an element. Filters are commonly used to adjust the rendering of images, backgrounds, and borders.
+
+### CSS Grid
+
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+
+An HTML element becomes a grid container when its `display` property is set to `grid` or `inline-grid`.
+
+```CSS
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.item {
+  grid-column: 1 / 5;
+}
+```
+
