@@ -164,3 +164,35 @@ An HTML element becomes a grid container when its `display` property is set to `
 }
 ```
 
+## Week 7️⃣
+
+### CSS Angle Tan
+
+The **`<angle>`**CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in sand in some `transform` functions.
+
+### CSS Transform
+
+The `transform` property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.
+
+## Week 8️⃣
+
+### CSS Media Queries Breakpoints
+
+- **Breakpoints based on device**
+
+```css
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+```
+
+### CSS Selectors
+
+In CSS, selectors are patterns used to select the element(s) you want to style.
